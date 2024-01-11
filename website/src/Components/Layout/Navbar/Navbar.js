@@ -7,7 +7,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false)
 
   return (
-    <nav className='h-[8vh] w-full shadow-lg fixed top-0 bg-white'>
+    <nav className='h-[8vh] w-full shadow-lg fixed top-0 bg-white z-10'>
       <div className='container h-full mx-auto flex justify-between items-center px-4 lg:px-0'>
         {/* brand logo */}
         <div className='text-2xl font-semibold'>
