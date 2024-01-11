@@ -6,6 +6,15 @@ import Logistics from '../assets/Home/Logistics.jpg'
 import RealState from '../assets/Home/Real_state.jpg'
 import Manufacturing from '../assets/Home/Manufacturing.jpg'
 import Travel from '../assets/Home/Travel.jpg'
+import python from '../assets/Home/python.png'
+import java from '../assets/Home/java.png'
+import android from '../assets/Home/android.png'
+import angular from '../assets/Home/angular.png'
+import bitcoin from '../assets/Home/bitcoin.png'
+import ios from '../assets/Home/ios.png'
+import node from '../assets/Home/node.png'
+import react from '../assets/Home/react.png'
+import vue from '../assets/Home/vue.png'
 import { Link } from 'react-router-dom'
 
 const Home = () => {
@@ -313,6 +322,99 @@ const Home = () => {
                       </Link>
                       <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
                   </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Technology Coverage */}
+        <div className='min-h-screen'>
+          <div className='container mx-auto min-h-screen flex flex-col justify-center items-center px-4 py-10 lg:px-0 lg:py-20'>
+            <div className='mb-10'>
+              <h2 className='text-5xl text-center font-bold mb-4'>Our Technolgies</h2>
+              <p className='text-md text-justify'>Discover the pinnacle of technological solutions with our comprehensive array of services at AWA Software House. From bespoke software development and cutting-edge enterprise software to the seamless creation of mobile apps, our expertise extends to ERP solutions, cloud computing, eCommerce platforms, and product development. Unleash the power of innovation with our adept software integrations, ensuring your systems work seamlessly together. Our commitment doesn't end with deployment – we offer top-notch maintenance and testing services, providing enduring reliability.</p>
+            </div>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
+              <div>
+                <Link to="/contact" className="w-full flex flex-col justify-center items-center p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                  <div className='h-[100px] w-[100px] mb-2 rounded-full bg-slate-100 text-white flex justify-center items-center'>
+                    <img src={python} width={50} alt='python'/>
+                  </div>
+                  <h5 className="mb-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Python</h5>
+                  <p className="font-normal text-justify text-gray-700 dark:text-gray-400">Consequat semper viverra nam libero justo laoreet sit amet. Egestas tellus rutrum tellus pellentesque eu tincidunt. Consequat semper viverra nam libero justo laoreet sit amet. Egestas tellus rutrum tellus pellentesque eu tincidunt. Consequat semper viverra nam libero justo laoreet sit amet. Egestas tellus rutrum tellus pellentesque eu tincidunt.</p>
+                </Link>
+              </div>
+              <div>
+                <Link to="/contact" className="w-full flex flex-col justify-center items-center p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                  <div className='h-[100px] w-[100px] mb-2 rounded-full bg-slate-100 text-white flex justify-center items-center'>
+                    <img src={java} width={70} alt='python'/>
+                  </div>
+                  <h5 className="mb-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Java</h5>
+                  <p className="font-normal text-justify text-gray-700 dark:text-gray-400">Consequat semper viverra nam libero justo laoreet sit amet. Egestas tellus rutrum tellus pellentesque eu tincidunt. Consequat semper viverra nam libero justo laoreet sit amet. Egestas tellus rutrum tellus pellentesque eu tincidunt. Consequat semper viverra nam libero justo laoreet sit amet. Egestas tellus rutrum tellus pellentesque eu tincidunt.</p>
+                </Link>
+              </div>
+              <div>
+                <Link to="/contact" className="w-full flex flex-col justify-center items-center p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                  <div className='h-[100px] w-[100px] mb-2 rounded-full bg-slate-100 text-white flex justify-center items-center'>
+                    <img src={node} width={50} alt='python'/>
+                  </div>
+                  <h5 className="mb-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Node js</h5>
+                  <p className="font-normal text-justify text-gray-700 dark:text-gray-400">Consequat semper viverra nam libero justo laoreet sit amet. Egestas tellus rutrum tellus pellentesque eu tincidunt. Consequat semper viverra nam libero justo laoreet sit amet. Egestas tellus rutrum tellus pellentesque eu tincidunt. Consequat semper viverra nam libero justo laoreet sit amet. Egestas tellus rutrum tellus pellentesque eu tincidunt.</p>
+                </Link>
+              </div>
+              <div>
+                <Link to="/contact" className="w-full flex flex-col justify-center items-center p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                  <div className='h-[100px] w-[100px] mb-2 rounded-full bg-slate-100 text-white flex justify-center items-center'>
+                    <img src={angular} width={50} alt='python'/>
+                  </div>
+                  <h5 className="mb-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Angular</h5>
+                  <p className="font-normal text-justify text-gray-700 dark:text-gray-400">Consequat semper viverra nam libero justo laoreet sit amet. Egestas tellus rutrum tellus pellentesque eu tincidunt. Consequat semper viverra nam libero justo laoreet sit amet. Egestas tellus rutrum tellus pellentesque eu tincidunt. Consequat semper viverra nam libero justo laoreet sit amet. Egestas tellus rutrum tellus pellentesque eu tincidunt.</p>
+                </Link>
+              </div>
+              <div>
+                <Link to="/contact" className="w-full flex flex-col justify-center items-center p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                  <div className='h-[100px] w-[100px] mb-2 rounded-full bg-slate-100 text-white flex justify-center items-center'>
+                    <img src={react} width={50} alt='python'/>
+                  </div>
+                  <h5 className="mb-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">React</h5>
+                  <p className="font-normal text-justify text-gray-700 dark:text-gray-400">Consequat semper viverra nam libero justo laoreet sit amet. Egestas tellus rutrum tellus pellentesque eu tincidunt. Consequat semper viverra nam libero justo laoreet sit amet. Egestas tellus rutrum tellus pellentesque eu tincidunt. Consequat semper viverra nam libero justo laoreet sit amet. Egestas tellus rutrum tellus pellentesque eu tincidunt.</p>
+                </Link>
+              </div>
+              <div>
+                <Link to="/contact" className="w-full flex flex-col justify-center items-center p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                  <div className='h-[100px] w-[100px] mb-2 rounded-full bg-slate-100 text-white flex justify-center items-center'>
+                    <img src={vue} width={50} alt='python'/>
+                  </div>
+                  <h5 className="mb-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Vue</h5>
+                  <p className="font-normal text-justify text-gray-700 dark:text-gray-400">Consequat semper viverra nam libero justo laoreet sit amet. Egestas tellus rutrum tellus pellentesque eu tincidunt. Consequat semper viverra nam libero justo laoreet sit amet. Egestas tellus rutrum tellus pellentesque eu tincidunt. Consequat semper viverra nam libero justo laoreet sit amet. Egestas tellus rutrum tellus pellentesque eu tincidunt.</p>
+                </Link>
+              </div>
+              <div>
+                <Link to="/contact" className="w-full flex flex-col justify-center items-center p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                  <div className='h-[100px] w-[100px] mb-2 rounded-full bg-slate-100 text-white flex justify-center items-center'>
+                    <img src={ios} width={50} alt='python'/>
+                  </div>
+                  <h5 className="mb-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">IOS</h5>
+                  <p className="font-normal text-justify text-gray-700 dark:text-gray-400">Consequat semper viverra nam libero justo laoreet sit amet. Egestas tellus rutrum tellus pellentesque eu tincidunt. Consequat semper viverra nam libero justo laoreet sit amet. Egestas tellus rutrum tellus pellentesque eu tincidunt. Consequat semper viverra nam libero justo laoreet sit amet. Egestas tellus rutrum tellus pellentesque eu tincidunt.</p>
+                </Link>
+              </div>
+              <div>
+                <Link to="/contact" className="w-full flex flex-col justify-center items-center p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                  <div className='h-[100px] w-[100px] mb-2 rounded-full bg-slate-100 text-white flex justify-center items-center'>
+                    <img src={android} width={50} alt='python'/>
+                  </div>
+                  <h5 className="mb-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Android</h5>
+                  <p className="font-normal text-justify text-gray-700 dark:text-gray-400">Consequat semper viverra nam libero justo laoreet sit amet. Egestas tellus rutrum tellus pellentesque eu tincidunt. Consequat semper viverra nam libero justo laoreet sit amet. Egestas tellus rutrum tellus pellentesque eu tincidunt. Consequat semper viverra nam libero justo laoreet sit amet. Egestas tellus rutrum tellus pellentesque eu tincidunt.</p>
+                </Link>
+              </div>
+              <div>
+                <Link to="/contact" className="w-full flex flex-col justify-center items-center p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                  <div className='h-[100px] w-[100px] mb-2 rounded-full bg-slate-100 text-white flex justify-center items-center'>
+                    <img src={bitcoin} width={50} alt='python'/>
+                  </div>
+                  <h5 className="mb-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Crypto-currency</h5>
+                  <p className="font-normal text-justify text-gray-700 dark:text-gray-400">Consequat semper viverra nam libero justo laoreet sit amet. Egestas tellus rutrum tellus pellentesque eu tincidunt. Consequat semper viverra nam libero justo laoreet sit amet. Egestas tellus rutrum tellus pellentesque eu tincidunt. Consequat semper viverra nam libero justo laoreet sit amet. Egestas tellus rutrum tellus pellentesque eu tincidunt.</p>
+                </Link>
               </div>
             </div>
           </div>
