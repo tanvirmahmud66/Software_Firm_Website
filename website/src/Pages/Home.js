@@ -420,6 +420,52 @@ const Home = () => {
           </div>
         </div>
 
+        {/* How to reach AWA software House */}
+        <div className='min-h-[90vh] bg-slate-100'>
+          <div className='container mx-auto min-h-screen flex flex-col justify-center items-center px-4 py-10 lg:px-0 lg:py-20'>
+            <div className='mb-10'>
+              <h2 className='text-5xl text-center font-bold mb-4'>How to Reach AWA Software House</h2>
+              <p className='text-md text-center'>Malibag, DIT Road, Dhaka-1217, Bangladesh</p>
+            </div>
+            <div className='grid grid-cols-1 lg:grid-cols-2 gap-5 w-full'>
+              <div className=''>
+                <form class="border p-5 rounded-lg bg-white">
+                  <div class="mb-5">
+                    <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Name</label>
+                    <input type="text" id="name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Name" required/>
+                  </div>
+                  <div class="mb-5">
+                    <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Email</label>
+                    <input type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder='email@email.com' required/>
+                  </div>
+                  <div class="mb-5">
+                    <label for="subject" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Subject</label>
+                    <input type="text" id="subject" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder='Subject' required/>
+                  </div>
+                  <div class="mb-5">
+                    <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your message</label>
+                    <textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Leave your messages..."></textarea>
+                  </div>
+                  <button type="submit" class="focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg w-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">Send Message</button>
+                </form>
+              </div>
+              <div className="relative overflow-hidden max-w-full border-2 rounded-lg">
+                <div className="relative w-full h-full" style={{ paddingTop: '75%' }}>
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.9688110204065!2d90.41036657547215!3d23.74849158884937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b86284e4ac4d%3A0xb70b58b2c3792a5d!2s97%20Malibagh%201st%20Ln%2C%20Dhaka%201217!5e0!3m2!1sen!2sbd!4v1704989693214!5m2!1sen!2sbd"
+                    width="100%"
+                    height="100%"
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    className="absolute top-0 left-0 w-full h-full"
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   )
