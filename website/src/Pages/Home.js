@@ -94,7 +94,7 @@ const Home = () => {
                     </svg>
                   </div>
                   <h5 className="mb-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Cloud Computing Services</h5>
-                  <p className="font-normal text-gray-700 dark:text-gray-400">Build reliable enterprise software for the business to become a market leader.</p>
+                  <p className="font-normal text-justify text-gray-700 dark:text-gray-400">Build reliable enterprise software for the business to become a market leader.</p>
                 </Link>
               </div>
               <div>
@@ -105,7 +105,7 @@ const Home = () => {
                     </svg>
                   </div>
                   <h5 className="mb-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Web Development</h5>
-                  <p className="font-normal text-gray-700 dark:text-gray-400">Build Web Application with advanced machine learning & artificial intelligence.</p>
+                  <p className="font-normal text-justify text-gray-700 dark:text-gray-400">Build Web Application with advanced machine learning & artificial intelligence.</p>
                 </Link>
               </div>
               <div>
@@ -116,7 +116,7 @@ const Home = () => {
                     </svg>
                   </div>
                   <h5 className="mb-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Ecommerce Solutions</h5>
-                  <p className="font-normal text-gray-700 dark:text-gray-400">Build reliable enterprise software for the business to become a market leader.</p>
+                  <p className="font-normal text-justify text-gray-700 dark:text-gray-400">Build reliable enterprise software for the business to become a market leader.</p>
                 </Link>
               </div>
               <div>
@@ -127,7 +127,7 @@ const Home = () => {
                     </svg>
                   </div>
                   <h5 className="mb-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Moblie App Development</h5>
-                  <p className="font-normal text-gray-700 dark:text-gray-400">Build reliable enterprise software for the business to become a market leader.</p>
+                  <p className="font-normal text-justify text-gray-700 dark:text-gray-400">Build reliable enterprise software for the business to become a market leader.</p>
                 </Link>
               </div>
               <div>
@@ -138,7 +138,7 @@ const Home = () => {
                     </svg>
                   </div>
                   <h5 className="mb-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">ERP Solutions</h5>
-                  <p className="font-normal text-gray-700 dark:text-gray-400">Build reliable enterprise software for the business to become a market leader.</p>
+                  <p className="font-normal text-justify text-gray-700 dark:text-gray-400">Build reliable enterprise software for the business to become a market leader.</p>
                 </Link>
               </div>
               <div>
@@ -149,7 +149,85 @@ const Home = () => {
                     </svg>
                   </div>
                   <h5 className="mb-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Custom Software Development</h5>
-                  <p className="font-normal text-gray-700 dark:text-gray-400">Build reliable enterprise software for the business to become a market leader.</p>
+                  <p className="font-normal text-justify text-gray-700 dark:text-gray-400">Build reliable enterprise software for the business to become a market leader.</p>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* our Solutions */}
+        <div className='min-h-screen'>
+          <div className='container mx-auto min-h-screen flex flex-col justify-center items-center px-4 py-10 lg:px-0 lg:py-20'>
+            <div className='mb-10'>
+              <h2 className='text-5xl text-center font-bold mb-4'>Our Solutions</h2>
+              <p className='text-md text-justify'>Discover the pinnacle of technological solutions with our comprehensive array of services at AWA Software House. From bespoke software development and cutting-edge enterprise software to the seamless creation of mobile apps, our expertise extends to ERP solutions, cloud computing, eCommerce platforms, and product development. Unleash the power of innovation with our adept software integrations, ensuring your systems work seamlessly together. Our commitment doesn't end with deployment – we offer top-notch maintenance and testing services, providing enduring reliability. With a multifaceted approach, we align your IT infrastructure with strategic business initiatives, accelerating the implementation of new projects and positioning you miles ahead of the competition. AWA Software House: Where Technology Meets Transformation.</p>
+            </div>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
+              <div>
+                <Link to="/contact" className="w-full flex flex-col justify-center items-center p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                  <div className='h-[50px] w-[50px] mb-2 rounded-full bg-green-500 text-white flex justify-center items-center'>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 7.125C2.25 6.504 2.754 6 3.375 6h6c.621 0 1.125.504 1.125 1.125v3.75c0 .621-.504 1.125-1.125 1.125h-6a1.125 1.125 0 0 1-1.125-1.125v-3.75ZM14.25 8.625c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v8.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 0 1-1.125-1.125v-8.25ZM3.75 16.125c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v2.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 0 1-1.125-1.125v-2.25Z" />
+                    </svg>
+                  </div>
+                  <h5 className="mb-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">ERP Solutions</h5>
+                  <p className="font-normal text-justify text-gray-700 dark:text-gray-400">Consequat semper viverra nam libero justo laoreet sit amet. Egestas tellus rutrum tellus pellentesque eu tincidunt. Consequat semper viverra nam libero justo laoreet sit amet. Egestas tellus rutrum tellus pellentesque eu tincidunt. Consequat semper viverra nam libero justo laoreet sit amet. Egestas tellus rutrum tellus pellentesque eu tincidunt.</p>
+                </Link>
+              </div>
+              <div>
+                <Link to="/contact" className="w-full flex flex-col justify-center items-center p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                  <div className='h-[50px] w-[50px] mb-2 rounded-full bg-green-500 text-white flex justify-center items-center'>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M6.429 9.75 2.25 12l4.179 2.25m0-4.5 5.571 3 5.571-3m-11.142 0L2.25 7.5 12 2.25l9.75 5.25-4.179 2.25m0 0L21.75 12l-4.179 2.25m0 0 4.179 2.25L12 21.75 2.25 16.5l4.179-2.25m11.142 0-5.571 3-5.571-3" />
+                    </svg>
+                  </div>
+                  <h5 className="mb-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Project Management System</h5>
+                  <p className="font-normal text-justify text-gray-700 dark:text-gray-400">Consequat semper viverra nam libero justo laoreet sit amet. Egestas tellus rutrum tellus pellentesque eu tincidunt. Consequat semper viverra nam libero justo laoreet sit amet. Egestas tellus rutrum tellus pellentesque eu tincidunt. Consequat semper viverra nam libero justo laoreet sit amet. Egestas tellus rutrum tellus pellentesque eu tincidunt.</p>
+                </Link>
+              </div>
+              <div>
+                <Link to="/contact" className="w-full flex flex-col justify-center items-center p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                  <div className='h-[50px] w-[50px] mb-2 rounded-full bg-green-500 text-white flex justify-center items-center'>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                    </svg>
+                  </div>
+                  <h5 className="mb-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Invertory Management System</h5>
+                  <p className="font-normal text-justify text-gray-700 dark:text-gray-400">Consequat semper viverra nam libero justo laoreet sit amet. Egestas tellus rutrum tellus pellentesque eu tincidunt. Consequat semper viverra nam libero justo laoreet sit amet. Egestas tellus rutrum tellus pellentesque eu tincidunt. Consequat semper viverra nam libero justo laoreet sit amet. Egestas tellus rutrum tellus pellentesque eu tincidunt.</p>
+                </Link>
+              </div>
+              <div>
+                <Link to="/contact" className="w-full flex flex-col justify-center items-center p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                  <div className='h-[50px] w-[50px] mb-2 rounded-full bg-green-500 text-white flex justify-center items-center'>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
+                    </svg>
+                  </div>
+                  <h5 className="mb-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Education Management System</h5>
+                  <p className="font-normal text-justify text-gray-700 dark:text-gray-400">Consequat semper viverra nam libero justo laoreet sit amet. Egestas tellus rutrum tellus pellentesque eu tincidunt. Consequat semper viverra nam libero justo laoreet sit amet. Egestas tellus rutrum tellus pellentesque eu tincidunt. Consequat semper viverra nam libero justo laoreet sit amet. Egestas tellus rutrum tellus pellentesque eu tincidunt.</p>
+                </Link>
+              </div>
+              <div>
+                <Link to="/contact" className="w-full flex flex-col justify-center items-center p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                  <div className='h-[50px] w-[50px] mb-2 rounded-full bg-green-500 text-white flex justify-center items-center'>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M3 3v1.5M3 21v-6m0 0 2.77-.693a9 9 0 0 1 6.208.682l.108.054a9 9 0 0 0 6.086.71l3.114-.732a48.524 48.524 0 0 1-.005-10.499l-3.11.732a9 9 0 0 1-6.085-.711l-.108-.054a9 9 0 0 0-6.208-.682L3 4.5M3 15V4.5" />
+                    </svg>
+                  </div>
+                  <h5 className="mb-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Land Port Management System</h5>
+                  <p className="font-normal text-justify text-gray-700 dark:text-gray-400">Consequat semper viverra nam libero justo laoreet sit amet. Egestas tellus rutrum tellus pellentesque eu tincidunt. Consequat semper viverra nam libero justo laoreet sit amet. Egestas tellus rutrum tellus pellentesque eu tincidunt. Consequat semper viverra nam libero justo laoreet sit amet. Egestas tellus rutrum tellus pellentesque eu tincidunt.</p>
+                </Link>
+              </div>
+              <div>
+                <Link to="/contact" className="w-full flex flex-col justify-center items-center p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                  <div className='h-[50px] w-[50px] mb-2 rounded-full bg-green-500 text-white flex justify-center items-center'>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3v11.25A2.25 2.25 0 0 0 6 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0 1 18 16.5h-2.25m-7.5 0h7.5m-7.5 0-1 3m8.5-3 1 3m0 0 .5 1.5m-.5-1.5h-9.5m0 0-.5 1.5m.75-9 3-3 2.148 2.148A12.061 12.061 0 0 1 16.5 7.605" />
+                    </svg>
+                  </div>
+                  <h5 className="mb-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Export & Import Management</h5>
+                  <p className="font-normal text-justify text-gray-700 dark:text-gray-400">Consequat semper viverra nam libero justo laoreet sit amet. Egestas tellus rutrum tellus pellentesque eu tincidunt. Consequat semper viverra nam libero justo laoreet sit amet. Egestas tellus rutrum tellus pellentesque eu tincidunt. Consequat semper viverra nam libero justo laoreet sit amet. Egestas tellus rutrum tellus pellentesque eu tincidunt.</p>
                 </Link>
               </div>
             </div>
