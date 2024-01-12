@@ -23,7 +23,7 @@ const Home = () => {
       <div>
 
         {/* hero */}
-        <div className='relative h-[80vh] bg-cover bg-center text-white' style={{backgroundImage:`url(${backgroundImg})`}}>
+        <div className='relative h-[80vh] bg-cover bg-center bg-fixed text-white' style={{backgroundImage:`url(${backgroundImg})`}}>
           <div className='absolute inset-0 bg-black opacity-65'></div>
           <div className='absolute pt-20 inset-0 text-white'>
               <div className='h-full container mx-auto flex justify-center items-center'>
