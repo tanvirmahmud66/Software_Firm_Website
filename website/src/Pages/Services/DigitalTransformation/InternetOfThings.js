@@ -1,5 +1,6 @@
 import React from 'react'
 import iot from '../../../assets/Services/DigitalTransformation/IOT.jpg'
+import DefaultError from '../../../Components/DefaultError'
 
 const InternetOfThings = () => {
   return (
@@ -17,7 +18,7 @@ const InternetOfThings = () => {
               </div>
           </div>
         </div>
-
+        <DefaultError/>
       </div>
     </div>
   )

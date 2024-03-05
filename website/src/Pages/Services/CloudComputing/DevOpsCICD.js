@@ -1,5 +1,6 @@
 import React from 'react'
 import devOps from '../../../assets/Services/CloudComputing/devOps.jpg'
+import DefaultError from '../../../Components/DefaultError'
 
 
 const DevOpsCICD = () => {
@@ -18,6 +19,8 @@ const DevOpsCICD = () => {
               </div>
           </div>
         </div>
+
+        <DefaultError/>
 
       </div>
     </div>

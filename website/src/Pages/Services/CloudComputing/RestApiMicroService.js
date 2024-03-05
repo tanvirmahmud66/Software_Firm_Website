@@ -1,5 +1,6 @@
 import React from 'react'
 import restAPI from '../../../assets/Services/CloudComputing/restAPI.jpg'
+import DefaultError from '../../../Components/DefaultError'
 
 
 const RestApiMicroService = () => {
@@ -18,7 +19,7 @@ const RestApiMicroService = () => {
               </div>
           </div>
         </div>
-
+        <DefaultError/>
       </div>
     </div>
   )

@@ -1,5 +1,6 @@
 import React from 'react'
 import Procurement from '../../../assets/Solutions/ERPmanagement/Procurement.jpeg'
+import DefaultError from '../../../Components/DefaultError'
 
 const ProcurementManagement = () => {
   return (
@@ -17,7 +18,7 @@ const ProcurementManagement = () => {
               </div>
           </div>
         </div>
-
+        <DefaultError/>
       </div>
     </div>
   )

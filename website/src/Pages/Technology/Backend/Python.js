@@ -1,5 +1,6 @@
 import React from 'react'
 import heroImg from '../../../assets/Technology/6.jpg'
+import DefaultError from '../../../Components/DefaultError'
 
 const Python = () => {
   return (
@@ -17,7 +18,7 @@ const Python = () => {
               </div>
           </div>
         </div>
-
+        <DefaultError/>
       </div>
     </div>
   )

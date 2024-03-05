@@ -1,5 +1,6 @@
 import React from 'react'
 import HRMsolutions from '../../../assets/Solutions/ERPsolutions/hrmSolutions.jpg'
+import DefaultError from '../../../Components/DefaultError'
 
 const HRM = () => {
   return (
@@ -17,7 +18,7 @@ const HRM = () => {
               </div>
           </div>
         </div>
-
+        <DefaultError/>
       </div>
     </div>
   )

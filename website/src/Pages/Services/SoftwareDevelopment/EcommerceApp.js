@@ -1,5 +1,6 @@
 import React from 'react'
 import ecom from '../../../assets/Services/SoftwareDevelopment/ecom.jpg'
+import DefaultError from '../../../Components/DefaultError'
 
 const EcommerceApp = () => {
   return (
@@ -17,6 +18,8 @@ const EcommerceApp = () => {
               </div>
           </div>
         </div>
+
+        <DefaultError/>
 
       </div>
     </div>

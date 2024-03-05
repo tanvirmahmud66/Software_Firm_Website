@@ -1,5 +1,6 @@
 import React from 'react'
 import pharmacy from '../../../assets/Solutions/ERPmanagement/pharmacy.jpg'
+import DefaultError from '../../../Components/DefaultError'
 
 const PharmacyManagement = () => {
   return (
@@ -18,6 +19,7 @@ const PharmacyManagement = () => {
           </div>
         </div>
 
+        <DefaultError/>
       </div>
     </div>
   )

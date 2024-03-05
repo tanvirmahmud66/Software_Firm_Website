@@ -1,5 +1,6 @@
 import React from 'react'
 import heroImg from '../../../assets/Technology/11.jpg'
+import DefaultError from '../../../Components/DefaultError'
 
 const GCP = () => {
   return (
@@ -17,7 +18,7 @@ const GCP = () => {
               </div>
           </div>
         </div>
-
+        <DefaultError/>
       </div>
     </div>
   )

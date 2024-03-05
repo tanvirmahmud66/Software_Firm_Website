@@ -1,5 +1,6 @@
 import React from 'react'
 import CRMsolutions from '../../../assets/Solutions/ERPsolutions/crmSolutions.jpg'
+import DefaultError from '../../../Components/DefaultError'
 
 const CRM = () => {
   return (
@@ -17,7 +18,7 @@ const CRM = () => {
               </div>
           </div>
         </div>
-
+        <DefaultError/>
       </div>
     </div>
   )

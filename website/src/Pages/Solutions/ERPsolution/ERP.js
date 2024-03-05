@@ -1,5 +1,6 @@
 import React from 'react'
 import ERPSolutions from '../../../assets/Solutions/ERPsolutions/erpSolutions.jpg'
+import DefaultError from '../../../Components/DefaultError'
 
 const ERP = () => {
   return (
@@ -17,7 +18,7 @@ const ERP = () => {
               </div>
           </div>
         </div>
-
+        <DefaultError/>
       </div>
     </div>
   )

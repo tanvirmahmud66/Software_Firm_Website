@@ -1,5 +1,6 @@
 import React from 'react'
 import heroImg from '../../../assets/Technology/10.jpg'
+import DefaultError from '../../../Components/DefaultError'
 
 const AWS = () => {
   return (
@@ -17,7 +18,7 @@ const AWS = () => {
               </div>
           </div>
         </div>
-
+        <DefaultError/>
       </div>
     </div>
   )

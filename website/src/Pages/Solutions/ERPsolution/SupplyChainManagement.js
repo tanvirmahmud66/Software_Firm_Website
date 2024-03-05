@@ -1,5 +1,6 @@
 import React from 'react'
 import supplyChain from '../../../assets/Solutions/ERPsolutions/supplyChain.jpg'
+import DefaultError from '../../../Components/DefaultError'
 
 const SupplyChainManagement = () => {
   return (
@@ -17,7 +18,7 @@ const SupplyChainManagement = () => {
               </div>
           </div>
         </div>
-
+        <DefaultError/>
       </div>
     </div>
   )

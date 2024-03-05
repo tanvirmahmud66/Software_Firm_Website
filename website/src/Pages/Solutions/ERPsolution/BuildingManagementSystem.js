@@ -1,5 +1,6 @@
 import React from 'react'
 import BuildingManagement from '../../../assets/Solutions/ERPsolutions/projectManagement.jpg'
+import DefaultError from '../../../Components/DefaultError'
 
 const BuildingManagementSystem = () => {
   return (
@@ -17,7 +18,7 @@ const BuildingManagementSystem = () => {
               </div>
           </div>
         </div>
-
+        <DefaultError/>
       </div>
     </div>
   )

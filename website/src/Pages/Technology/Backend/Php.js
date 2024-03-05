@@ -1,5 +1,6 @@
 import React from 'react'
 import heroImg from '../../../assets/Technology/5.jpg'
+import DefaultError from '../../../Components/DefaultError'
 
 const Php = () => {
   return (
@@ -17,7 +18,7 @@ const Php = () => {
               </div>
           </div>
         </div>
-
+        <DefaultError/>
       </div>
     </div>
   )

@@ -1,5 +1,6 @@
 import React from 'react'
 import BusinessInt from '../../../assets/Services/SoftwareDevelopment/BusinessInt.jpg'
+import DefaultError from '../../../Components/DefaultError'
 
 
 const BuisnessIntelligance = () => {
@@ -18,6 +19,8 @@ const BuisnessIntelligance = () => {
               </div>
           </div>
         </div>
+
+        <DefaultError/>
 
       </div>
     </div>

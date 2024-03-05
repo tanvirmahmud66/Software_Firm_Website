@@ -1,5 +1,6 @@
 import React from 'react'
 import AmazonWeb from '../../../assets/Services/CloudComputing/AmazonWeb.jpg'
+import DefaultError from '../../../Components/DefaultError'
 
 const GoogleCloudPlatform = () => {
   return (
@@ -17,7 +18,7 @@ const GoogleCloudPlatform = () => {
               </div>
           </div>
         </div>
-        
+        <DefaultError/>
       </div>
     </div>
   )

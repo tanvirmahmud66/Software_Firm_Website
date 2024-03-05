@@ -1,5 +1,6 @@
 import React from 'react'
 import AmazonWeb from '../../../assets/Services/CloudComputing/AmazonWeb.jpg'
+import DefaultError from '../../../Components/DefaultError'
 
 const AmazonWebService = () => {
   return (
@@ -17,6 +18,8 @@ const AmazonWebService = () => {
               </div>
           </div>
         </div>
+
+        <DefaultError/>
 
       </div>
     </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import heroImg from '../../../assets/Technology/4.jpg'
+import DefaultError from '../../../Components/DefaultError'
 
 const TypeScript = () => {
   return (
@@ -17,7 +18,7 @@ const TypeScript = () => {
               </div>
           </div>
         </div>
-
+        <DefaultError/>
       </div>
     </div>
   )

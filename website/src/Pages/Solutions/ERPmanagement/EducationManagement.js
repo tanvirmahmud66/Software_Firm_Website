@@ -1,5 +1,6 @@
 import React from 'react'
 import Education from '../../../assets/Solutions/ERPmanagement/education.jpg'
+import DefaultError from '../../../Components/DefaultError'
 
 
 const EducationManagement = () => {
@@ -18,7 +19,7 @@ const EducationManagement = () => {
               </div>
           </div>
         </div>
-
+        <DefaultError/>
       </div>
     </div>
   )

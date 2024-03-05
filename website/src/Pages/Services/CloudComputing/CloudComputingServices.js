@@ -1,5 +1,6 @@
 import React from 'react'
 import cloudComputing from '../../../assets/Services/CloudComputing/cloudComputing.jpg'
+import DefaultError from '../../../Components/DefaultError'
 
 
 const CloudComputingServices = () => {
@@ -18,6 +19,8 @@ const CloudComputingServices = () => {
               </div>
           </div>
         </div>
+
+        <DefaultError/>
 
       </div>
     </div>

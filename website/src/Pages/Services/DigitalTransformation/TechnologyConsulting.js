@@ -1,5 +1,6 @@
 import React from 'react'
 import techConsult from '../../../assets/Services/DigitalTransformation/TechConsult.jpg'
+import DefaultError from '../../../Components/DefaultError'
 
 
 const TechnologyConsulting = () => {
@@ -18,7 +19,7 @@ const TechnologyConsulting = () => {
               </div>
           </div>
         </div>
-
+        <DefaultError/>
       </div>
     </div>
   )

@@ -1,5 +1,6 @@
 import React from 'react'
 import mobileApp from '../../../assets/Services/SoftwareDevelopment/mobileApp.jpg'
+import DefaultError from '../../../Components/DefaultError'
 
 
 const MobileAppDev = () => {
@@ -18,6 +19,8 @@ const MobileAppDev = () => {
               </div>
           </div>
         </div>
+
+        <DefaultError/>
 
       </div>
     </div>

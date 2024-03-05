@@ -1,5 +1,6 @@
 import React from 'react'
 import blockchain from '../../../assets/Services/DigitalTransformation/blockchain.jpg'
+import DefaultError from '../../../Components/DefaultError'
 
 const BlockChainApplication = () => {
   return (
@@ -17,7 +18,7 @@ const BlockChainApplication = () => {
               </div>
           </div>
         </div>
-
+        <DefaultError/>
       </div>
     </div>
   )

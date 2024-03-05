@@ -1,5 +1,6 @@
 import React from 'react'
 import Account from '../../../assets/Solutions/ERPmanagement/account.jpg'
+import DefaultError from '../../../Components/DefaultError'
 
 const AccountFinanceManagement = () => {
   return (
@@ -17,7 +18,7 @@ const AccountFinanceManagement = () => {
               </div>
           </div>
         </div>
-
+        <DefaultError/>
       </div>
     </div>
   )

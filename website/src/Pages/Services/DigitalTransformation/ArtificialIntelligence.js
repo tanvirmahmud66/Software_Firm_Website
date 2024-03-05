@@ -1,5 +1,6 @@
 import React from 'react'
 import AI from '../../../assets/Services/DigitalTransformation/ai.jpg'
+import DefaultError from '../../../Components/DefaultError'
 
 
 const ArtificialIntelligence = () => {
@@ -18,7 +19,8 @@ const ArtificialIntelligence = () => {
               </div>
           </div>
         </div>
-
+        
+        <DefaultError/>
       </div>
     </div>
   )

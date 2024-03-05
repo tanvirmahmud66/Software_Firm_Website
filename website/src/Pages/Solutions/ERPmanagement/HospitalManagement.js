@@ -1,5 +1,6 @@
 import React from 'react'
 import hospital from '../../../assets/Solutions/ERPmanagement/hospital.jpg'
+import DefaultError from '../../../Components/DefaultError'
 
 const HospitalManagement = () => {
   return (
@@ -17,7 +18,7 @@ const HospitalManagement = () => {
               </div>
           </div>
         </div>
-
+        <DefaultError/>
       </div>
     </div>
   )

@@ -1,5 +1,6 @@
 import React from 'react'
 import testing from '../../../assets/Services/SoftwareDevelopment/testing.jpg'
+import DefaultError from '../../../Components/DefaultError'
 
 const Quality_Testing = () => {
   return (
@@ -17,6 +18,8 @@ const Quality_Testing = () => {
               </div>
           </div>
         </div>
+
+        <DefaultError/>
 
       </div>
     </div>

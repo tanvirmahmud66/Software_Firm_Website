@@ -1,5 +1,6 @@
 import React from 'react'
 import heroImg from '../../../assets/Technology/7.jpg'
+import DefaultError from '../../../Components/DefaultError'
 
 const ReactNative = () => {
   return (
@@ -17,7 +18,7 @@ const ReactNative = () => {
               </div>
           </div>
         </div>
-
+        <DefaultError/>
       </div>
     </div>
   )

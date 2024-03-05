@@ -1,5 +1,6 @@
 import React from 'react'
 import MachineLearning from '../../../assets/Services/DigitalTransformation/machineLearning.jpg'
+import DefaultError from '../../../Components/DefaultError'
 
 const MachineLearningService = () => {
   return (
@@ -17,7 +18,7 @@ const MachineLearningService = () => {
               </div>
           </div>
         </div>
-
+        <DefaultError/>
       </div>
     </div>
   )

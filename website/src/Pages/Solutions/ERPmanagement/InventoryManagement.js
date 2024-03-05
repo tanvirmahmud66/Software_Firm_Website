@@ -1,5 +1,6 @@
 import React from 'react'
 import inventory from '../../../assets/Solutions/ERPmanagement/Inventory.jpg'
+import DefaultError from '../../../Components/DefaultError'
 
 const InventoryManagement = () => {
   return (
@@ -17,7 +18,7 @@ const InventoryManagement = () => {
               </div>
           </div>
         </div>
-
+        <DefaultError/>
       </div>
     </div>
   )

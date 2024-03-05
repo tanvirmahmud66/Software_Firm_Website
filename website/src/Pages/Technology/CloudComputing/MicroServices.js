@@ -1,5 +1,6 @@
 import React from 'react'
 import heroImg from '../../../assets/Technology/14.jpg'
+import DefaultError from '../../../Components/DefaultError'
 
 const MicroServices = () => {
   return (
@@ -17,7 +18,7 @@ const MicroServices = () => {
               </div>
           </div>
         </div>
-
+        <DefaultError/>
       </div>
     </div>
   )

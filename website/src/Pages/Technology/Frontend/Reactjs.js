@@ -1,5 +1,6 @@
 import React from 'react'
 import heroImg from '../../../assets/Technology/3.jpg'
+import DefaultError from '../../../Components/DefaultError'
 
 
 const Reactjs = () => {
@@ -18,7 +19,7 @@ const Reactjs = () => {
               </div>
           </div>
         </div>
-
+        <DefaultError/>
       </div>
     </div>
   )
